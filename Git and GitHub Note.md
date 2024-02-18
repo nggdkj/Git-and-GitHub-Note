@@ -149,6 +149,14 @@ git remote add origin xxxxxxxx	//xxxxxxxx即为仓库地址
 git push -u origin master
 ```
 
+—— 如果出现 error: failed to push some refs to "XXXXXXX" ：
+
+```
+git pull --rebase origin master  //把远程库中的跟新合并到本地库中
+```
+
+
+
 ## 从GitHub上克隆项目到本地
 
 **(1) 新建文件夹用于存放克隆的项目：**
