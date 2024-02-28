@@ -185,3 +185,11 @@ git status	//确定文件是否已在Git仓库中
 git commit -m "注释"	//可以在注释中描述更新的内容
 git push
 ```
+
+**多个设备同步：**
+
+```
+git pull	//在设备1更新并push到github后，想在设备2同步github内容，则使用git pull
+(git clone 相当于"第一次 git pull"，只需要 clone 一次，后续更新同步用 git pull)
+```
+
